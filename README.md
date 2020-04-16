@@ -28,7 +28,7 @@ After starting the development server with `npm run dev`, you can edit any files
 and webpack will automatically recompile and reload your server (available at `http://localhost:8080`
 by default).
 
-You **don't need** to import `phaser` in any files in the `src` folder. Except `src/app.ts`.
+You **don't need** to import `phaser` on any files in the `src` folder. Except `src/app.ts`.
 
 You can **import files** with `const name = require("path").default`.
 
