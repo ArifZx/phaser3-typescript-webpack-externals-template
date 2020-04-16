@@ -11,13 +11,13 @@ Loading files via JavaScript module `import` is also supported (see at the [#Wri
 
 ## Available Commands
 
-| Command            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| `npm install`      | Install project dependencies                                                                      |
-| `npm run dev`      | Build project and open web server running project in development mode                             |
-| `npm run dev-host` | Build project and open web server running project in development mode and rut at host = "0.0.0.0" |
-| `npm run build`    | Builds code bundle with production settings (minification, uglification, etc..)                   |
-| `npm run start`    | Start server running project                                                                      |
+| Command            | Description                                                                                        |
+| ------------------ | -------------------------------------------------------------------------------------------------- |
+| `npm install`      | Install project dependencies                                                                       |
+| `npm run dev`      | Build project and open web server running project in development mode                              |
+| `npm run dev-host` | Build project and open web server running project in development mode that run at host = "0.0.0.0" |
+| `npm run build`    | Builds code bundle with production settings (minification, uglification, etc..)                    |
+| `npm run start`    | Start server running project                                                                       |
 
 ## Writing Code
 
