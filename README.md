@@ -3,7 +3,7 @@
 A Phaser 3 project template with ES6 support via [Webpack 4](https://webpack.js.org/)
 that includes hot-reloading for development and production-ready builds.
 
-Loading images via JavaScript module `import` is also supported (see at the #Writing Code).
+Loading files via JavaScript module `import` is also supported (see at the #Writing Code).
 
 ## Requirements
 
@@ -30,7 +30,7 @@ by default).
 
 You **don't need** to import `phaser` in any files in the `src` folder. Except `src/app.ts`.
 
-You can **import assets** with `const name = require("path").default`.
+You can **import files** with `const name = require("path").default`.
 
 ### Webpack
 
