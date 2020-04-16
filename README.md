@@ -32,6 +32,8 @@ You **don't need** to import `phaser` in any files in the `src` folder. Except `
 
 You can **import files** with `const name = require("path").default`.
 
+You can change the phaser 3 version with edit `script-src` at the head of `src/index.html`.
+
 ### Webpack
 
 If you want to customize your build, such as adding a new webpack loader or plugin (i.e. for loading CSS or fonts), you can
