@@ -3,7 +3,7 @@
 A Phaser 3 project template with ES6 support via [Webpack 4](https://webpack.js.org/)
 that includes hot-reloading for development and production-ready builds and use externals `phaser.min.js`.
 
-Loading files via JavaScript module `import` is also supported (see at the #Writing Code).
+Loading files via JavaScript module `import` is also supported (see at the [#Writing Code](#writing-code)).
 
 ## Requirements
 
