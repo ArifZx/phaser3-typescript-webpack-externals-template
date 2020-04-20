@@ -21,9 +21,18 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(tsx?)|(js)$/,
+        exclude: /node_modules/,
+        use: "babel-loader",
+      },
+      {
         test: /\.(tsx|ts)?$/,
         use: "ts-loader",
         exclude: /node_modules/,
+      },
+      {
+        test: [/\.vert$/, /\.frag$/],
+        use: "raw-loader",
       },
       {
         test: /\.(png|jpe?g|gif)$/i,

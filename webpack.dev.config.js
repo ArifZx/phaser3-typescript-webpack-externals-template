@@ -7,9 +7,15 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
 
 module.exports = {
+  devServer: {
+    compress: true,
+    port: 9000,
+    open: true,
+  },
   entry: {
     game: path.resolve(__dirname, "src/app.ts"),
   },
+  devtool: "eval-cheap-module-source-map",
   externals: {
     phaser: {
       root: "phaser",
@@ -19,9 +25,18 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(tsx?)|(js)$/,
+        exclude: /node_modules/,
+        use: "babel-loader",
+      },
+      {
         test: /\.(tsx|ts)?$/,
         use: "ts-loader",
         exclude: /node_modules/,
+      },
+      {
+        test: [/\.vert$/, /\.frag$/],
+        use: "raw-loader",
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
