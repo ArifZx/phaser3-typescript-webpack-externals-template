@@ -1,0 +1,886 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.1",
+  "hash": "c59fb98c502e1e5123b3",
+  "time": 3011,
+  "builtAt": 1587358435770,
+  "publicPath": "",
+  "outputPath": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/dist",
+  "assetsByChunkName": {
+    "game": "game.60e53b3bde0d2464f622.min.js"
+  },
+  "assets": [
+    {
+      "name": "assets/images/18a7191678e558c5519c3e330eff5f85.png",
+      "size": 180337,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "game.60e53b3bde0d2464f622.min.js",
+      "size": 2146,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "game"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 266,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "game": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "game.60e53b3bde0d2464f622.min.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "game": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "game.60e53b3bde0d2464f622.min.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2007,
+      "names": [
+        "game"
+      ],
+      "files": [
+        "game.60e53b3bde0d2464f622.min.js"
+      ],
+      "hash": "2b10358295f17efbf8e9",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "name": "./src/app.ts",
+          "index": 0,
+          "index2": 4,
+          "size": 307,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 97,
+            "building": 2020
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "loc": "game"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nrequire(\"phaser\");\nvar scene_1 = require(\"./scenes/scene\");\nvar config = {\n    type: Phaser.AUTO,\n    parent: \"phaser-example\",\n    width: 800,\n    height: 600,\n    scene: [scene_1.default],\n};\nvar game = new Phaser.Game(config);\n"
+        },
+        {
+          "id": 1,
+          "identifier": "external {\"root\":\"phaser\",\"commonjs2\":\"phaser\"}",
+          "name": "external {\"root\":\"phaser\",\"commonjs2\":\"phaser\"}",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "issuerId": 0,
+          "issuerName": "./src/app.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "name": "./src/app.ts",
+              "profile": {
+                "factory": 97,
+                "building": 2020
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 34
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "module": "./src/app.ts",
+              "moduleName": "./src/app.ts",
+              "type": "cjs require",
+              "userRequest": "phaser",
+              "loc": "3:0-17"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 2,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+          "name": "./src/scenes/scene.ts",
+          "index": 2,
+          "index2": 3,
+          "size": 1386,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "issuerId": 0,
+          "issuerName": "./src/app.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "name": "./src/app.ts",
+              "profile": {
+                "factory": 97,
+                "building": 2020
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 34
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "module": "./src/app.ts",
+              "moduleName": "./src/app.ts",
+              "type": "cjs require",
+              "userRequest": "./scenes/scene",
+              "loc": "4:14-39"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\nvar __extends = (this && this.__extends) || (function () {\n    var extendStatics = function (d, b) {\n        extendStatics = Object.setPrototypeOf ||\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\n        return extendStatics(d, b);\n    };\n    return function (d, b) {\n        extendStatics(d, b);\n        function __() { this.constructor = d; }\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n    };\n})();\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar assets_1 = require(\"../assets\");\nvar Scene = /** @class */ (function (_super) {\n    __extends(Scene, _super);\n    function Scene() {\n        return _super.call(this, {\n            key: \"Scene\"\n        }) || this;\n    }\n    Scene.prototype.preload = function () {\n        this.load.image(assets_1.default.logo.key, assets_1.default.logo.path);\n    };\n    Scene.prototype.create = function () {\n        var logo = this.add.image(400, 150, assets_1.default.logo.key);\n        this.tweens.add({\n            targets: logo,\n            y: 450,\n            duration: 2000,\n            ease: \"Power2\",\n            yoyo: true,\n            loop: -1\n        });\n    };\n    return Scene;\n}(Phaser.Scene));\nexports.default = Scene;\n"
+        },
+        {
+          "id": 3,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+          "name": "./src/assets/index.ts",
+          "index": 3,
+          "index2": 2,
+          "size": 204,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+          "issuerId": 2,
+          "issuerName": "./src/scenes/scene.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "name": "./src/app.ts",
+              "profile": {
+                "factory": 97,
+                "building": 2020
+              }
+            },
+            {
+              "id": 2,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+              "name": "./src/scenes/scene.ts",
+              "profile": {
+                "factory": 5,
+                "building": 34
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 3
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+              "module": "./src/scenes/scene.ts",
+              "moduleName": "./src/scenes/scene.ts",
+              "type": "cjs require",
+              "userRequest": "../assets",
+              "loc": "16:15-35"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar assets = {\n    logo: {\n        key: \"logo\",\n        path: require(\"./logo.png\").default\n    }\n};\nexports.default = assets;\n"
+        },
+        {
+          "id": 4,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/file-loader/dist/cjs.js??ref--5!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/logo.png",
+          "name": "./src/assets/logo.png",
+          "index": 4,
+          "index2": 1,
+          "size": 68,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+          "issuerId": 3,
+          "issuerName": "./src/assets/index.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+              "name": "./src/app.ts",
+              "profile": {
+                "factory": 97,
+                "building": 2020
+              }
+            },
+            {
+              "id": 2,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+              "name": "./src/scenes/scene.ts",
+              "profile": {
+                "factory": 5,
+                "building": 34
+              }
+            },
+            {
+              "id": 3,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+              "name": "./src/assets/index.ts",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 23
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "assets/images/18a7191678e558c5519c3e330eff5f85.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+              "module": "./src/assets/index.ts",
+              "moduleName": "./src/assets/index.ts",
+              "type": "cjs require",
+              "userRequest": "./logo.png",
+              "loc": "6:14-35"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/assets/index.ts (referenced with cjs require)"
+          ],
+          "depth": 3,
+          "source": "export default \"assets/images/18a7191678e558c5519c3e330eff5f85.png\";"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "game",
+          "request": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+      "name": "./src/app.ts",
+      "index": 0,
+      "index2": 4,
+      "size": 307,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 97,
+        "building": 2020
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "loc": "game"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nrequire(\"phaser\");\nvar scene_1 = require(\"./scenes/scene\");\nvar config = {\n    type: Phaser.AUTO,\n    parent: \"phaser-example\",\n    width: 800,\n    height: 600,\n    scene: [scene_1.default],\n};\nvar game = new Phaser.Game(config);\n"
+    },
+    {
+      "id": 1,
+      "identifier": "external {\"root\":\"phaser\",\"commonjs2\":\"phaser\"}",
+      "name": "external {\"root\":\"phaser\",\"commonjs2\":\"phaser\"}",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+      "issuerId": 0,
+      "issuerName": "./src/app.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "name": "./src/app.ts",
+          "profile": {
+            "factory": 97,
+            "building": 2020
+          }
+        }
+      ],
+      "profile": {
+        "factory": 5,
+        "building": 34
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "module": "./src/app.ts",
+          "moduleName": "./src/app.ts",
+          "type": "cjs require",
+          "userRequest": "phaser",
+          "loc": "3:0-17"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 2,
+      "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+      "name": "./src/scenes/scene.ts",
+      "index": 2,
+      "index2": 3,
+      "size": 1386,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+      "issuerId": 0,
+      "issuerName": "./src/app.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "name": "./src/app.ts",
+          "profile": {
+            "factory": 97,
+            "building": 2020
+          }
+        }
+      ],
+      "profile": {
+        "factory": 5,
+        "building": 34
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "module": "./src/app.ts",
+          "moduleName": "./src/app.ts",
+          "type": "cjs require",
+          "userRequest": "./scenes/scene",
+          "loc": "4:14-39"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || (function () {\n    var extendStatics = function (d, b) {\n        extendStatics = Object.setPrototypeOf ||\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\n        return extendStatics(d, b);\n    };\n    return function (d, b) {\n        extendStatics(d, b);\n        function __() { this.constructor = d; }\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n    };\n})();\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar assets_1 = require(\"../assets\");\nvar Scene = /** @class */ (function (_super) {\n    __extends(Scene, _super);\n    function Scene() {\n        return _super.call(this, {\n            key: \"Scene\"\n        }) || this;\n    }\n    Scene.prototype.preload = function () {\n        this.load.image(assets_1.default.logo.key, assets_1.default.logo.path);\n    };\n    Scene.prototype.create = function () {\n        var logo = this.add.image(400, 150, assets_1.default.logo.key);\n        this.tweens.add({\n            targets: logo,\n            y: 450,\n            duration: 2000,\n            ease: \"Power2\",\n            yoyo: true,\n            loop: -1\n        });\n    };\n    return Scene;\n}(Phaser.Scene));\nexports.default = Scene;\n"
+    },
+    {
+      "id": 3,
+      "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+      "name": "./src/assets/index.ts",
+      "index": 3,
+      "index2": 2,
+      "size": 204,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+      "issuerId": 2,
+      "issuerName": "./src/scenes/scene.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "name": "./src/app.ts",
+          "profile": {
+            "factory": 97,
+            "building": 2020
+          }
+        },
+        {
+          "id": 2,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+          "name": "./src/scenes/scene.ts",
+          "profile": {
+            "factory": 5,
+            "building": 34
+          }
+        }
+      ],
+      "profile": {
+        "factory": 4,
+        "building": 3
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+          "module": "./src/scenes/scene.ts",
+          "moduleName": "./src/scenes/scene.ts",
+          "type": "cjs require",
+          "userRequest": "../assets",
+          "loc": "16:15-35"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar assets = {\n    logo: {\n        key: \"logo\",\n        path: require(\"./logo.png\").default\n    }\n};\nexports.default = assets;\n"
+    },
+    {
+      "id": 4,
+      "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/file-loader/dist/cjs.js??ref--5!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/logo.png",
+      "name": "./src/assets/logo.png",
+      "index": 4,
+      "index2": 1,
+      "size": 68,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+      "issuerId": 3,
+      "issuerName": "./src/assets/index.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/app.ts",
+          "name": "./src/app.ts",
+          "profile": {
+            "factory": 97,
+            "building": 2020
+          }
+        },
+        {
+          "id": 2,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/scenes/scene.ts",
+          "name": "./src/scenes/scene.ts",
+          "profile": {
+            "factory": 5,
+            "building": 34
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+          "name": "./src/assets/index.ts",
+          "profile": {
+            "factory": 4,
+            "building": 3
+          }
+        }
+      ],
+      "profile": {
+        "factory": 4,
+        "building": 23
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "assets/images/18a7191678e558c5519c3e330eff5f85.png"
+      ],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/ts-loader/index.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/assets/index.ts",
+          "module": "./src/assets/index.ts",
+          "moduleName": "./src/assets/index.ts",
+          "type": "cjs require",
+          "userRequest": "./logo.png",
+          "loc": "6:14-35"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/assets/index.ts (referenced with cjs require)"
+      ],
+      "depth": 3,
+      "source": "export default \"assets/images/18a7191678e558c5519c3e330eff5f85.png\";"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4163,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 486,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "f2ec295ab82e8f48e6cf",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/html-webpack-plugin/lib/loader.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 486,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 34,
+                "building": 17
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/html-webpack-plugin/lib/loader.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n\\n<head>\\n  <script defer src=\"https://cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js\"></script>\\n</head>\\n\\n<body>\\n  <div id=\"game\" style=\"height: 100%;\"></div>\\n</body>\\n\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/html-webpack-plugin/lib/loader.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/html-webpack-plugin/lib/loader.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 486,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 34,
+            "building": 17
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/html-webpack-plugin/lib/loader.js!/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/src/index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"/mnt/d/Documents/WWW/phaser3-typescript-webpack-externals-template/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n\\n<head>\\n  <script defer src=\"https://cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js\"></script>\\n</head>\\n\\n<body>\\n  <div id=\"game\" style=\"height: 100%;\"></div>\\n</body>\\n\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}
