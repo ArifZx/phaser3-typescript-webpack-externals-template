@@ -7,7 +7,9 @@
     "build": "webpack --mode=production",
     "start": "node index.js",
     "dev": "webpack-dev-server --config webpack.dev.config.js --hot",
-    "dev-host": "webpack-dev-server --config webpack.dev.config.js --hot --host 0.0.0.0 --disable-host-check"
+    "dev-host": "webpack-dev-server --config webpack.dev.config.js --hot --host 0.0.0.0 --disable-host-check",
+    "dev-stat": "webpack --config webpack.dev.config.js --json > stats.json",
+    "stat": "webpack --mode production --profile --json > stats.json"
   },
   "repository": {
     "type": "git",
