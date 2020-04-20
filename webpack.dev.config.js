@@ -7,6 +7,11 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
 
 module.exports = {
+  devServer: {
+    compress: true,
+    port: 9000,
+    open: true,
+  },
   entry: {
     game: path.resolve(__dirname, "src/app.ts"),
   },
@@ -28,6 +33,10 @@ module.exports = {
         test: /\.(tsx|ts)?$/,
         use: "ts-loader",
         exclude: /node_modules/,
+      },
+      {
+        test: [/\.vert$/, /\.frag$/],
+        use: "raw-loader",
       },
       {
         test: /\.(png|jpe?g|gif)$/i,

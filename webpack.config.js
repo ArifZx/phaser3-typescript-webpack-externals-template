@@ -31,6 +31,10 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
+        test: [/\.vert$/, /\.frag$/],
+        use: "raw-loader",
+      },
+      {
         test: /\.(png|jpe?g|gif)$/i,
         loader: "file-loader",
         options: {
