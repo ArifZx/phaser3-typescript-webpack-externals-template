@@ -10,6 +10,7 @@ module.exports = {
   entry: {
     game: path.resolve(__dirname, "src/app.ts"),
   },
+  devtool: "eval-cheap-module-source-map",
   externals: {
     phaser: {
       root: "phaser",
@@ -18,6 +19,11 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.(tsx?)|(js)$/,
+        exclude: /node_modules/,
+        use: "babel-loader",
+      },
       {
         test: /\.(tsx|ts)?$/,
         use: "ts-loader",
