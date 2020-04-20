@@ -21,9 +21,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(tsx|ts)?$/,
-        use: "ts-loader",
+        test: /\.(tsx?)|(js)$/,
         exclude: /node_modules/,
+        use: "babel-loader",
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
