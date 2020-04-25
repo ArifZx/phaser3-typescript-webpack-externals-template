@@ -1,4 +1,4 @@
-const logoImg = require("../assets/logo.png").default;
+import logoImg from "../assets/logo.png";
 
 export default class Scene extends Phaser.Scene {
   constructor() {

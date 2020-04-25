@@ -16,4 +16,17 @@ module.exports = {
     ecmaVersion: 6, // Allows for the parsing of modern ECMAScript features
     sourceType: "module", // Allows for the use of imports
   },
+  settings: {
+    "import/resolver": {
+      webpack: {},
+    },
+  },
+  overrides: [
+    {
+      files: ["*.png"],
+      rules: {
+        strict: "off",
+      },
+    },
+  ],
 };
