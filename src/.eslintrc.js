@@ -21,12 +21,4 @@ module.exports = {
       webpack: {},
     },
   },
-  overrides: [
-    {
-      files: ["*.png"],
-      rules: {
-        strict: "off",
-      },
-    },
-  ],
 };
