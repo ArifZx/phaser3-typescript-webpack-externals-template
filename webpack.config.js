@@ -86,7 +86,6 @@ module.exports = {
     },
     minimizer: [
       new TerserPlugin({
-        warningsFilter: () => false,
         minify: (file, sourceMap) => {
           const extractedComments = [];
 
