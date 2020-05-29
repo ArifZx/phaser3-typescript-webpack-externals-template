@@ -36,7 +36,23 @@ You can **import files** with `const name = require("path").default`.
 
 You can **change** the phaser 3 version with edit `script-src` of phaser.min.js at `src/index.html`.
 
-### Webpack
+## Config
+
+You can **change** phaser version and other depedency in `phaser.config.js`.
+
+## Import Files
+
+You have two options to import files:
+
+### copy assets (default)
+
+You can copy all asset files into your `dist` folder. Config `CopyPlugin` in webpack.config for development or production.
+
+### import require (optional)
+
+You can **import files** with `const name = require("path").default`. If you want to import any types of assets. Check in `src/types` to add your custom types.
+
+## Webpack
 
 If you want to customize your build, such as adding a new webpack loader or plugin (i.e. for loading CSS or fonts), you can
 modify the `webpack.dev.config.js` file for cross-project changes, or you can modify and/or create
