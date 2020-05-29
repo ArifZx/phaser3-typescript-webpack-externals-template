@@ -5,6 +5,8 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const path = require("path");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
+const phaserConfig = require("./phaser.config");
 
 module.exports = {
   devServer: {
@@ -71,15 +73,25 @@ module.exports = {
       "typeof EXPERIMENTAL": JSON.stringify(false),
       "typeof PLUGIN_CAMERA3D": JSON.stringify(false),
       "typeof PLUGIN_FBINSTANT": JSON.stringify(false),
+      "typeof FEATURE_SOUND": JSON.stringify(true),
     }),
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
       title: "Phaser Game",
       template: path.resolve(__dirname, "src/index.html"),
       chunks: ["game"],
+      phaserConfig,
     }),
     new ScriptExtHtmlWebpackPlugin({
       defer: ["game"],
+    }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "src/assets",
+          to: "dist/assets",
+        },
+      ],
     }),
   ],
 };

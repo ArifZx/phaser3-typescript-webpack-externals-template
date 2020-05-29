@@ -1,14 +1,15 @@
-import logoImg from "../assets/logo.png";
+type ObjectTransform = Phaser.GameObjects.GameObject & Phaser.GameObjects.Components.Transform;
 
 export default class Scene extends Phaser.Scene {
-  constructor() {
+  constructor(asd: ObjectTransform) {
     super({
       key: "Scene"
     });
+
   }
 
   preload(): void {
-    this.load.image("logo", logoImg);
+    this.load.image("logo", "src/assets/logo.png");
   }
 
   create(): void {

@@ -2,7 +2,10 @@
 <html>
 
 <head>
-  <script defer src="https://cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/phaser@<%= htmlWebpackPlugin.options.phaserConfig.version %>/dist/phaser.min.js"></script>
+  <%= htmlWebpackPlugin.options.phaserConfig.phaser_arcade_physics ? `<script src="https://cdn.jsdelivr.net/npm/phaser@${htmlWebpackPlugin.options.phaserConfig.version}/dist/phaser-arcade-physics.js"></script>` : '' %>
+  <%= htmlWebpackPlugin.options.phaserConfig.phaser_facebook_instant_games ? `<script src="https://cdn.jsdelivr.net/npm/phaser@${htmlWebpackPlugin.options.phaserConfig.version}/dist/phaser-facebook-instant-games.min.js"></script>` : '' %>
 </head>
 
 <body>
